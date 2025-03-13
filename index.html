@@ -1,0 +1,151 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Sample HTML5 Page</title>  
+    <link rel="stylesheet" href="styles.css">  
+</head>  
+<body>  
+
+    <!-- Header Section -->  
+    <header>  
+        <h1>Welcome to my Contact and Registration Page</h1>  
+    </header>  
+
+    <!-- Ordered List -->  
+    <section>  
+        <h2>Important Steps</h2>  
+        <ol type="i">  
+            <li>Sign Up</li>  
+            <li>Verify Email</li>  
+            <li>Log In</li>  
+            <li>Complete Profile</li>  
+            <li>Start Using the Service</li>  
+        </ol>  
+    </section>  
+
+    <!-- External Image from Pexels -->  
+    <section>  
+        <h2>Featured Image</h2>  
+        <img src="https://images.pexels.com/photos/15260732/pexels-photo-15260732.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=400&h=250&fit=crop&crop=focalpoint" alt="Illuminated gas station in a foggy night" width="600">  
+    </section>  
+
+    <!-- Contacts Table -->  
+    <section>  
+        <h2>Contact List</h2>  
+        <table border="1">  
+            <thead>  
+                <tr>  
+                    <th>Name</th>  
+                    <th>Address</th>  
+                    <th>Mobile</th>  
+                    <th>Email</th>  
+                </tr>  
+            </thead>  
+            <tbody>  
+                <tr>  
+                    <td>JGeorge Gathecha</td>  
+                    <td>123-001100, Kiambu, Kenya</td>  
+                    <td>+254 722334455</td>  
+                    <td>georgegathecha@gmail.com</td>  
+                </tr>  
+                <tr>  
+                    <td>Jane Gathecha</td>  
+                    <td>4123-001100, Kiambu, Kenya</td>  
+                    <td>+254 733445566</td>  
+                    <td>janegathecha@gmail.com</td>  
+                </tr>  
+                <tr>  
+                    <td>Maxwell kangi</td>  
+                    <td>957-00100, Nairobi, Kenya</td>  
+                    <td>+254 755667788</td>  
+                    <td>maxkangi@gmail.com</td>  
+                </tr>  
+                <tr>  
+                    <td>Shania Twain</td>  
+                    <td>837-99922 Carlifornia, USA</td>  
+                    <td>+1 434 567890</td>  
+                    <td>twainshania@gmail.com</td>  
+                </tr>  
+                <tr>  
+                    <td>Silva Toure</td>  
+                    <td>246-112233 London, Britain</td>  
+                    <td>+44 4334 34553</td>  
+                    <td>tour001silva@gmail.com</td>  
+                </tr>  
+            </tbody>  
+        </table>  
+    </section>  
+
+    <!-- Registration Form -->  
+    <section>  
+        <h2>Registration Form</h2>  
+        <form action="#" method="POST">  
+            <label for="name">Name:</label>  
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>  
+
+            <label for="email">Email:</label>  
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>  
+
+            <label for="password">Password:</label>  
+            <input type="password" id="password" name="password" placeholder="Enter a strong password" required minlength="8">  
+
+            <label for="dob">Date of Birth:</label>  
+            <input type="date" id="dob" name="dob" required>  
+
+            <label for="options">Choose an Option:</label>  
+            <select id="options" name="options" required>  
+                <option value="">Select one</option>  
+                <option value="option1">Option 1</option>  
+                <option value="option2">Option 2</option>  
+            </select>  
+
+            <fieldset>  
+                <legend>Choose your gender:</legend>  
+                <label>  
+                    <input type="radio" name="gender" value="male" required> Male  
+                </label>  
+                <label>  
+                    <input type="radio" name="gender" value="female"> Female  
+                </label>  
+            </fieldset>  
+
+            <fieldset>  
+                <legend>Select your interests:</legend>  
+                <label>  
+                    <input type="checkbox" name="interest" value="music"> Music  
+                </label>  
+                <label>  
+                    <input type="checkbox" name="interest" value="sports"> Sports  
+                </label>  
+                <label>  
+                    <input type="checkbox" name="interest" value="reading"> Reading  
+                </label>  
+            </fieldset>  
+
+            <button type="submit">Register</button>  
+        </form>  
+    </section>  
+
+    <!-- Multimedia Section -->  
+    <section>  
+        <h2>Multimedia Elements</h2>  
+        <h3>Audio Sample</h3>  
+        <audio controls>  
+            <source src="audio/sample.mp3" type="audio/mpeg">    
+        </audio>  
+
+        <h3>Video Sample</h3>  
+        <video width="600" controls>  
+            <source src="video/sample.mp4" type="video/mp4"> 
+        </video>  
+    </section>  
+
+    <!-- Footer Section -->  
+    <footer>  
+        <p>&copy; 2025 All rights reserved.</p>  
+    </footer>  
+
+</body>  
+</html>  
